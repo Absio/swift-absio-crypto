@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AbsioIESHelper Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AbsioIESHelper" class="dashAnchor"></a>
+    <a title="AbsioIESHelper Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">AbsioCryptoiOS 1.1.0 Docs</a> (86% documented)</p>
+        <p class="header-right"><a href="https://github.com/Absio/swift-absio-crypto"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">AbsioCryptoiOS Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AbsioIESHelper Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AES.html">AES</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AES/KeyStrenght.html">– KeyStrenght</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AES/Algorithm.html">– Algorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESHelper.html">AbsioIESHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESHelper/AbsioIESError.html">– AbsioIESError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESStruct.html">AbsioIESStruct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cipher.html">Cipher</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cipher/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DER.html">DER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECCHelper.html">ECCHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDH.html">ECDH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA.html">ECDSA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA/ECDSAError.html">– ECDSAError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA/HashAlgorithm.html">– HashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECPrivateKey.html">ECPrivateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECPublicKey.html">ECPublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HMAC.html">HMAC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HMAC/Algorithm.html">– Algorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexedECPrivateKey.html">IndexedECPrivateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexedECPublicKey.html">IndexedECPublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KDF2.html">KDF2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyFile.html">KeyFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyFile/KeyFileError.html">– KeyFileError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper.html">MacHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper/MacError.html">– MacError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper/MacAlgorithm.html">– MacAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/P384.html">P384</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/P384/P384Error.html">– P384Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PBKDF2.html">PBKDF2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PBKDF2Helper.html">PBKDF2Helper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PEM.html">PEM</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ECKeyGenarator.html">ECKeyGenarator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Hash.html">Hash</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Hash/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KeyFileSettings.html">KeyFileSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KeyFileSettingsError.html">KeyFileSettingsError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/KeyError.html">KeyError</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AbsioIESHelper</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AbsioIESHelper</span></code></pre>
+
+                </div>
+              </div>
+            <p>This class is used to encrypt and decrypt data using the Absio Integrated Encryption Scheme (AbsioIES).
+This uses AbsioIESStruct for managing the data contained in the AbsioIES format.
+AbsioIES uses ECDH (see ECDH class) to create the key used to encrypt the data using  AES.Algorithnm#aes_256_ctr}.
+It also uses ECDSA with SHA384 to sign the encrypted data (see ECDSA).</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Errors"></a>
+                <a name="//apple_ref/swift/Section/Errors" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Errors"></a>
+                  <h3 class="section-name"><p>Errors</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESHelperC0A8IESErrorO"></a>
+                    <a name="//apple_ref/swift/Enum/AbsioIESError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESHelperC0A8IESErrorO">AbsioIESError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Absio Integrated Encryption Scheme Error enum</p>
+
+                        <a href="../Classes/AbsioIESHelper/AbsioIESError.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AbsioIESError</span> <span class="p">:</span> <span class="kt">Error</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Methods"></a>
+                <a name="//apple_ref/swift/Section/Methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Methods"></a>
+                  <h3 class="section-name"><p>Methods</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESHelperC7decrypt4data20derivationPrivateKey013signingPublicI010Foundation4DataVAJ_AA09ECPrivateI0CAA08ECPublicI0CtKFZ"></a>
+                    <a name="//apple_ref/swift/Method/decrypt(data:derivationPrivateKey:signingPublicKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESHelperC7decrypt4data20derivationPrivateKey013signingPublicI010Foundation4DataVAJ_AA09ECPrivateI0CAA08ECPublicI0CtKFZ">decrypt(data:<wbr>derivationPrivateKey:<wbr>signingPublicKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decrypt the AbsioIES formatted data.  This will also ensure that the data is properly ECDSA signed as well.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    AbsioIESError.invalidSignature - thrown if the signature of the encrypted data is not correct
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotCreateCipher
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotDecrypt
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotFinalizeEncryption
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotCleanUpCipher
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">decrypt</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">derivationPrivateKey</span><span class="p">:</span> <span class="kt"><a href="../Classes/ECPrivateKey.html">ECPrivateKey</a></span><span class="p">,</span> <span class="nv">signingPublicKey</span><span class="p">:</span> <span class="kt"><a href="../Classes/ECPublicKey.html">ECPublicKey</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the AbsioIES formatted data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>derivationPrivateKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the private derivation key used in the ECDH key exchange</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>signingPublicKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the public signing key of the creator used to ECDSA sign the ciphertext</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the decrypted data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESHelperC7encrypt4data17signingPrivateKey016derivationPublicI06userId06objectM010Foundation4DataVAL_AA016IndexedECPrivateI0CAA0q8ECPublicI0CAJ4UUIDVARtKFZ"></a>
+                    <a name="//apple_ref/swift/Method/encrypt(data:signingPrivateKey:derivationPublicKey:userId:objectId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESHelperC7encrypt4data17signingPrivateKey016derivationPublicI06userId06objectM010Foundation4DataVAL_AA016IndexedECPrivateI0CAA0q8ECPublicI0CAJ4UUIDVARtKFZ">encrypt(data:<wbr>signingPrivateKey:<wbr>derivationPublicKey:<wbr>userId:<wbr>objectId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Perform the AbsioIES encryption of the data.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotCreateCipher
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotDecrypt
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotFinalizeEncryption
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error.cannotCleanUpCipher
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">encrypt</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">signingPrivateKey</span><span class="p">:</span> <span class="kt"><a href="../Classes/IndexedECPrivateKey.html">IndexedECPrivateKey</a></span><span class="p">,</span> <span class="nv">derivationPublicKey</span><span class="p">:</span> <span class="kt"><a href="../Classes/IndexedECPublicKey.html">IndexedECPublicKey</a></span><span class="p">,</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">UUID</span><span class="p">,</span> <span class="nv">objectId</span><span class="p">:</span> <span class="kt">UUID</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the data to encrypt</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>signingPrivateKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the private signing key of the creator that will ECDSA sign the ciphertext</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>derivationPublicKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the public derivation key used in the ECDH key exchange</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s id calling this method (the signer)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>objectId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the id of the data in the AbsioIES structure</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the AbsioIES encrypted and formatted data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://www.absio.com" target="_blank" rel="external">Absio</a>. All rights reserved. (Last updated: 2020-09-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

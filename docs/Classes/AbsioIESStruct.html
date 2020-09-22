@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AbsioIESStruct Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AbsioIESStruct" class="dashAnchor"></a>
+    <a title="AbsioIESStruct Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">AbsioCryptoiOS 1.1.0 Docs</a> (86% documented)</p>
+        <p class="header-right"><a href="https://github.com/Absio/swift-absio-crypto"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">AbsioCryptoiOS Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AbsioIESStruct Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AES.html">AES</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AES/KeyStrenght.html">– KeyStrenght</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AES/Algorithm.html">– Algorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESHelper.html">AbsioIESHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESHelper/AbsioIESError.html">– AbsioIESError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESStruct.html">AbsioIESStruct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cipher.html">Cipher</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cipher/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DER.html">DER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECCHelper.html">ECCHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDH.html">ECDH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA.html">ECDSA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA/ECDSAError.html">– ECDSAError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA/HashAlgorithm.html">– HashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECPrivateKey.html">ECPrivateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECPublicKey.html">ECPublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HMAC.html">HMAC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HMAC/Algorithm.html">– Algorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexedECPrivateKey.html">IndexedECPrivateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexedECPublicKey.html">IndexedECPublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KDF2.html">KDF2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyFile.html">KeyFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyFile/KeyFileError.html">– KeyFileError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper.html">MacHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper/MacError.html">– MacError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper/MacAlgorithm.html">– MacAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/P384.html">P384</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/P384/P384Error.html">– P384Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PBKDF2.html">PBKDF2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PBKDF2Helper.html">PBKDF2Helper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PEM.html">PEM</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ECKeyGenarator.html">ECKeyGenarator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Hash.html">Hash</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Hash/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KeyFileSettings.html">KeyFileSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KeyFileSettingsError.html">KeyFileSettingsError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/KeyError.html">KeyError</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AbsioIESStruct</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AbsioIESStruct</span></code></pre>
+
+                </div>
+              </div>
+            <p>This class represents that data contained in the Absio Integrated Encryption Scheme (AbsioIES).</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Properties"></a>
+                  <h3 class="section-name"><p>Properties</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC7versions6UInt64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/version" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC7versions6UInt64Vvp">version</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The version of the AbsioIES structure</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">version</span><span class="p">:</span> <span class="kt">UInt64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC8objectId10Foundation4UUIDVvp"></a>
+                    <a name="//apple_ref/swift/Property/objectId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC8objectId10Foundation4UUIDVvp">objectId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The id of the data in the AbsioIES structure</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">objectId</span><span class="p">:</span> <span class="kt">UUID</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC18derivationKeyIndexs6UInt64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/derivationKeyIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC18derivationKeyIndexs6UInt64Vvp">derivationKeyIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The index of the derivation key used</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">derivationKeyIndex</span><span class="p">:</span> <span class="kt">UInt64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC15signingKeyIndexs6UInt64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/signingKeyIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC15signingKeyIndexs6UInt64Vvp">signingKeyIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The index of the signing key used</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">signingKeyIndex</span><span class="p">:</span> <span class="kt">UInt64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC24cipherAlgorithmTypeIndexs6UInt64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/cipherAlgorithmTypeIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC24cipherAlgorithmTypeIndexs6UInt64Vvp">cipherAlgorithmTypeIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The cipher algorithm type index (see AES.Algorithm)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">cipherAlgorithmTypeIndex</span><span class="p">:</span> <span class="kt">UInt64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC25encodedEphemeralPublicKey10Foundation4DataVvp"></a>
+                    <a name="//apple_ref/swift/Property/encodedEphemeralPublicKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC25encodedEphemeralPublicKey10Foundation4DataVvp">encodedEphemeralPublicKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Trhe public ephemeral key used in the AbsioIES ECDH exchange</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">encodedEphemeralPublicKey</span><span class="p">:</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC2iv10Foundation4DataVvp"></a>
+                    <a name="//apple_ref/swift/Property/iv" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC2iv10Foundation4DataVvp">iv</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The initialization vector used for the encryption portion of the AbsioIES</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">iv</span><span class="p">:</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC13encryptedData10Foundation0F0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/encryptedData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC13encryptedData10Foundation0F0Vvp">encryptedData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The AbsioIES encrypted data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">encryptedData</span><span class="p">:</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC9signature10Foundation4DataVvp"></a>
+                    <a name="//apple_ref/swift/Property/signature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC9signature10Foundation4DataVvp">signature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The ECDSA signature (part of AbsioIES)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC23encodedSigningPublicKey10Foundation4DataVvp"></a>
+                    <a name="//apple_ref/swift/Property/encodedSigningPublicKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC23encodedSigningPublicKey10Foundation4DataVvp">encodedSigningPublicKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The signing public key (used to perform the ECDSA portion of AbsioIES)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">encodedSigningPublicKey</span><span class="p">:</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC6userId10Foundation4UUIDVvp"></a>
+                    <a name="//apple_ref/swift/Property/userId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC6userId10Foundation4UUIDVvp">userId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The user&rsquo;s id that performed the AbsioIES (the signer)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">UUID</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializer"></a>
+                <a name="//apple_ref/swift/Section/Initializer" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initializer"></a>
+                  <h3 class="section-name"><p>Initializer</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC7version8objectId18derivationKeyIndex07signingiJ0019cipherAlgorithmTypeJ0022encodedEphemeralPublicI02iv13encryptedData9signature0o7SigningqI004userG0ACs6UInt64V_10Foundation4UUIDVA3pQ0T0VA4uStcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(version:objectId:derivationKeyIndex:signingKeyIndex:cipherAlgorithmTypeIndex:encodedEphemeralPublicKey:iv:encryptedData:signature:encodedSigningPublicKey:userId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC7version8objectId18derivationKeyIndex07signingiJ0019cipherAlgorithmTypeJ0022encodedEphemeralPublicI02iv13encryptedData9signature0o7SigningqI004userG0ACs6UInt64V_10Foundation4UUIDVA3pQ0T0VA4uStcfc">init(version:<wbr>objectId:<wbr>derivationKeyIndex:<wbr>signingKeyIndex:<wbr>cipherAlgorithmTypeIndex:<wbr>encodedEphemeralPublicKey:<wbr>iv:<wbr>encryptedData:<wbr>signature:<wbr>encodedSigningPublicKey:<wbr>userId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create the data structure - Absio Integrated Encryption Scheme with the given values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">version</span><span class="p">:</span> <span class="kt">UInt64</span><span class="p">,</span> <span class="nv">objectId</span><span class="p">:</span> <span class="kt">UUID</span><span class="p">,</span> <span class="nv">derivationKeyIndex</span><span class="p">:</span> <span class="kt">UInt64</span><span class="p">,</span> <span class="nv">signingKeyIndex</span><span class="p">:</span> <span class="kt">UInt64</span><span class="p">,</span> <span class="nv">cipherAlgorithmTypeIndex</span><span class="p">:</span> <span class="kt">UInt64</span><span class="p">,</span> <span class="nv">encodedEphemeralPublicKey</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">iv</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">encryptedData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">encodedSigningPublicKey</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">UUID</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>version</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the version of the AbsioIES structure</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>objectId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the id of the data in the AbsioIES structure</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>derivationKeyIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the index of the derivation key used</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>signingKeyIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the index of the signing key used</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cipherAlgorithmTypeIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the cipher algorithm type index (see AES.Algorithm)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>encodedEphemeralPublicKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the public ephemeral key used in the AbsioIES ECDH exchange</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>iv</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the initialization vector used for the encryption portion of the AbsioIES</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>encryptedData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the AbsioIES encrypted data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>signature</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the ECDSA signature (part of AbsioIES)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>encodedSigningPublicKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the signing public key (used to perform the ECDSA portion of AbsioIES)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s id that performed the AbsioIES (the signer)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Methods"></a>
+                <a name="//apple_ref/swift/Section/Methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Methods"></a>
+                  <h3 class="section-name"><p>Methods</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC5parse4dataAC10Foundation4DataV_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/parse(data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC5parse4dataAC10Foundation4DataV_tFZ">parse(data:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will parse the AbsioIES formatted data into a AbsioIESStruct.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">parse</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AbsioIESStruct</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the AbsioIES formatted data.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the parsed data as a AbsioIESStruct.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS0A9IESStructC6toData10Foundation0F0VyF"></a>
+                    <a name="//apple_ref/swift/Method/toData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS0A9IESStructC6toData10Foundation0F0VyF">toData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Compile AbsioIES structure into Data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toData</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the AbsioIES formatted data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://www.absio.com" target="_blank" rel="external">Absio</a>. All rights reserved. (Last updated: 2020-09-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

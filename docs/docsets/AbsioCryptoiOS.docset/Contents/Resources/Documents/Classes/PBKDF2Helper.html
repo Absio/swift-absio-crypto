@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PBKDF2Helper Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/PBKDF2Helper" class="dashAnchor"></a>
+    <a title="PBKDF2Helper Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">AbsioCryptoiOS 1.1.0 Docs</a> (86% documented)</p>
+        <p class="header-right"><a href="https://github.com/Absio/swift-absio-crypto"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">AbsioCryptoiOS Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PBKDF2Helper Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AES.html">AES</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AES/KeyStrenght.html">– KeyStrenght</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AES/Algorithm.html">– Algorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESHelper.html">AbsioIESHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESHelper/AbsioIESError.html">– AbsioIESError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AbsioIESStruct.html">AbsioIESStruct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cipher.html">Cipher</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cipher/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DER.html">DER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECCHelper.html">ECCHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDH.html">ECDH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA.html">ECDSA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA/ECDSAError.html">– ECDSAError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECDSA/HashAlgorithm.html">– HashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECPrivateKey.html">ECPrivateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ECPublicKey.html">ECPublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HMAC.html">HMAC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HMAC/Algorithm.html">– Algorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexedECPrivateKey.html">IndexedECPrivateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexedECPublicKey.html">IndexedECPublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KDF2.html">KDF2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyFile.html">KeyFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyFile/KeyFileError.html">– KeyFileError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper.html">MacHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper/MacError.html">– MacError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MacHelper/MacAlgorithm.html">– MacAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/P384.html">P384</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/P384/P384Error.html">– P384Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PBKDF2.html">PBKDF2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PBKDF2Helper.html">PBKDF2Helper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PEM.html">PEM</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ECKeyGenarator.html">ECKeyGenarator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Hash.html">Hash</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Hash/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KeyFileSettings.html">KeyFileSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KeyFileSettingsError.html">KeyFileSettingsError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/KeyError.html">KeyError</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PBKDF2Helper</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">PBKDF2Helper</span></code></pre>
+
+                </div>
+              </div>
+            <p>This is a helper class to deliver both PBKDF2 key generation and formatted encryption and decryption methods. The
+format of the data is salt length + salt + iv length + iv + encrypted data length + encrypted data. Note: this uses
+PBKDF2 class the key generation and Cipher class for the encrypt/decrypt operations.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializers"></a>
+                <a name="//apple_ref/swift/Section/Initializers" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initializers"></a>
+                  <h3 class="section-name"><p>Initializers</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS12PBKDF2HelperCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS12PBKDF2HelperCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS12PBKDF2HelperC8hashAlgo15cipherAlgorithm11keyStrengthAcA4HashO_AA3AESC0I0OAJ11KeyStrenghtOtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(hashAlgo:cipherAlgorithm:keyStrength:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS12PBKDF2HelperC8hashAlgo15cipherAlgorithm11keyStrengthAcA4HashO_AA3AESC0I0OAJ11KeyStrenghtOtcfc">init(hashAlgo:<wbr>cipherAlgorithm:<wbr>keyStrength:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">hashAlgo</span><span class="p">:</span> <span class="kt"><a href="../Enums/Hash.html">Hash</a></span><span class="p">,</span> <span class="nv">cipherAlgorithm</span><span class="p">:</span> <span class="kt"><a href="../Classes/AES.html">AES</a></span><span class="o">.</span><span class="kt">Algorithm</span><span class="p">,</span> <span class="nv">keyStrength</span><span class="p">:</span> <span class="kt"><a href="../Classes/AES.html">AES</a></span><span class="o">.</span><span class="kt">KeyStrenght</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Methods"></a>
+                <a name="//apple_ref/swift/Section/Methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Methods"></a>
+                  <h3 class="section-name"><p>Methods</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS12PBKDF2HelperC17decryptFromFormat13formattedData8password14iterationCount10Foundation0J0VAJ_SSSitKF"></a>
+                    <a name="//apple_ref/swift/Method/decryptFromFormat(formattedData:password:iterationCount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS12PBKDF2HelperC17decryptFromFormat13formattedData8password14iterationCount10Foundation0J0VAJ_SSSitKF">decryptFromFormat(formattedData:<wbr>password:<wbr>iterationCount:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will decrypt data that was encrypted with a PBKDF2 derived key where the data is in the following format:
+salt length + salt + iv length + iv + encrypted data length + encrypted data. Note: this uses
+Cipher class for the decryption and PBKDF2 class for the key generation</p>
+
+<ul>
+<li>formattedData: the data in the following format: salt length + salt + iv length + iv + encrypted data length + encrypted data</li>
+<li>password: the password used to derive the key. NOTE: String should be in UTF-8 encoding</li>
+<li>passphrase: the iteration count used to derive the key
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error in case if data cant be decrypted
+
+</div></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">decryptFromFormat</span><span class="p">(</span><span class="nv">formattedData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">iterationCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the decrypted data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS12PBKDF2HelperC15encryptToFormat4data4salt8password14iterationCount10Foundation4DataVAK_AKSSSitKF"></a>
+                    <a name="//apple_ref/swift/Method/encryptToFormat(data:salt:password:iterationCount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS12PBKDF2HelperC15encryptToFormat4data4salt8password14iterationCount10Foundation4DataVAK_AKSSSitKF">encryptToFormat(data:<wbr>salt:<wbr>password:<wbr>iterationCount:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will encrypt data with a PBKDF2 derived key and then format the data as follows: salt length + salt + iv
+length + iv + encrypted data length + encrypted data. Note: this uses Cipher class for the encryption and
+PBKDF2 class for the key generation</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error in case if data cant be encrypted
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encryptToFormat</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">salt</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">iterationCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the data to encrypt</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>salt</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the salt to use when deriving the key</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the password used to derive the key. NOTE: String should be in UTF-8 encoding</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the encrypted data formatted as follows: salt length + salt + iv length + iv + encrypted data length + encrypted data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14AbsioCryptoiOS12PBKDF2HelperC15encryptToFormat4data8password10saltLength14iterationCount10Foundation4DataVAK_SSS2itKF"></a>
+                    <a name="//apple_ref/swift/Method/encryptToFormat(data:password:saltLength:iterationCount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14AbsioCryptoiOS12PBKDF2HelperC15encryptToFormat4data8password10saltLength14iterationCount10Foundation4DataVAK_SSS2itKF">encryptToFormat(data:<wbr>password:<wbr>saltLength:<wbr>iterationCount:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will encrypt data with a PBKDF2 derived key and then format the data as follows: salt length + salt + iv
+length + iv + encrypted data length + encrypted data. Note: this uses Cipher class for the encryption and
+PBKDF2 class for the key generation</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Cipher.Error in case if data cant be encrypted
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encryptToFormat</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">saltLength</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">iterationCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the data to encrypt</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the password used to derive the key. NOTE: String should be in UTF-8 encoding</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>saltLength</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the length of the salt to create with random data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>iterationCount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the iteration count used to derive the key</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the encrypted data formatted as follows: salt length + salt + iv length + iv + encrypted data length + encrypted data</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://www.absio.com" target="_blank" rel="external">Absio</a>. All rights reserved. (Last updated: 2020-09-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
