@@ -1,0 +1,7 @@
+
+platform :ios, '13.0'
+use_frameworks!
+
+target 'absio-crypto-ios-example' do
+    pod 'AbsioCrypto', '~> 1.1.0'
+end
