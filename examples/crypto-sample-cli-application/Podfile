@@ -3,7 +3,7 @@ target 'crypto-sample-cli-application' do
   platform :osx, '10.14'
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  pod 'AbsioCrypto', '~> 1.1.0'
+  pod 'AbsioCrypto', '~> 1.2.0'
   pod 'Commander', '~> 0.8'
 
 end
