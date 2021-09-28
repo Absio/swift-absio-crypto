@@ -11,7 +11,7 @@ Genaral technology overview and toolset can be found [here](http://docs.absio.co
 
 - iOS 12.0 and higher
 - macOs 10.14 and higher
-- Xcode 11.6 and higher
+- Xcode 12.5 and higher
 - Swift 5.0 and higher
 
 ### Install 
@@ -22,7 +22,7 @@ If you are new to using pods please visit getting started [page](https://guides.
 To get our pod instantly please use line below
 
 ```ruby
-pod 'AbsioCrypto', '~> 1.1.0'
+pod 'AbsioCrypto', '~> 1.2.0'
 ```
 
 #### **Note:**

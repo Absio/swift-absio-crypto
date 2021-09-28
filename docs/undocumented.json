@@ -1,0 +1,173 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Cipher/Cipher.swift",
+      "line": 13,
+      "symbol": "Cipher.Error.cannotEncrypt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Cipher/Cipher.swift",
+      "line": 14,
+      "symbol": "Cipher.Error.cannotDecrypt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Cipher/Cipher.swift",
+      "line": 15,
+      "symbol": "Cipher.Error.cannotFinalizeEncryption",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Cipher/Cipher.swift",
+      "line": 16,
+      "symbol": "Cipher.Error.cannotFinalizeDencryption",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Cipher/Cipher.swift",
+      "line": 17,
+      "symbol": "Cipher.Error.cannotCleanUpCipher",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Cipher/Cipher.swift",
+      "line": 18,
+      "symbol": "Cipher.Error.cannotCreateCipher",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Cipher/Cipher.swift",
+      "line": 19,
+      "symbol": "Cipher.Error.notImplementedAlgorithm",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/ECC/ECCHelper.swift",
+      "line": 11,
+      "symbol": "ECCHelper.keyStrength",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Hash/Hash+Algorithms.swift",
+      "line": 23,
+      "symbol": "Hash.digestLength()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Hash/Hash.swift",
+      "line": 15,
+      "symbol": "Hash.sha256",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Hash/Hash.swift",
+      "line": 16,
+      "symbol": "Hash.sha384",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Hash/Hash.swift",
+      "line": 17,
+      "symbol": "Hash.sha512",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Hash/Hash.swift",
+      "line": 24,
+      "symbol": "Hash.Error.cannotHash",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/KeyFile/KeyFile.swift",
+      "line": 13,
+      "symbol": "KeyFile.KeyFileError.decryptionError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/KeyFile/KeyFileSettings.swift",
+      "line": 12,
+      "symbol": "KeyFileSettingsError.notImplemented",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/KeyFile/KeyFileSettings.swift",
+      "line": 31,
+      "symbol": "KeyFileSettings.getVersion()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Mac/HMAC.swift",
+      "line": 19,
+      "symbol": "HMAC.Algorithm.sha256",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Mac/HMAC.swift",
+      "line": 20,
+      "symbol": "HMAC.Algorithm.sha384",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Mac/HMAC.swift",
+      "line": 21,
+      "symbol": "HMAC.Algorithm.sha512",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Mac/MacHelper.swift",
+      "line": 14,
+      "symbol": "MacHelper.MacError.notImplementedAlgorithm",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/New Group/PBKDF2Helper.swift",
+      "line": 18,
+      "symbol": "PBKDF2Helper.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/New Group/PBKDF2Helper.swift",
+      "line": 22,
+      "symbol": "PBKDF2Helper.init(hashAlgo:cipherAlgorithm:keyStrength:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Signature/ECDSA.swift",
+      "line": 17,
+      "symbol": "ECDSA.ECDSAError.cannotSign",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto/Sources/Signature/ECDSA.swift",
+      "line": 24,
+      "symbol": "ECDSA.HashAlgorithm.SHA384",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/vitaliy/work/temy/Projects/swift/AbsioCrypto"
+}
